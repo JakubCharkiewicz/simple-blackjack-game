@@ -89,8 +89,4 @@ if question2 == "y":
 else:
     os.system('clear')
     print(goodbye)
-k=[2.4,5,6,7]
-import  json
-with open("heja_tu_lenka.json", "w") as file:
-    json.dump(k, file,  indent=4)
 
